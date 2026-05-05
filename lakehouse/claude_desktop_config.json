@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "lakehouse": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote",
+        "http://localhost:8000/mcp"
+      ],
+      "autoApprove": [
+        "query"
+      ]
+    }
+  }
+}

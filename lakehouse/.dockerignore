@@ -1,0 +1,49 @@
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Docker
+Dockerfile
+.dockerignore
+
+# Documentation and examples
+README.md
+example_usage.py
+test_server.py
+claude_desktop_config.json
+
+# Environment files
+.env.template
+
+# Scripts
+docker-build-run.sh
+run_spark_hive_mcp_server.sh
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo

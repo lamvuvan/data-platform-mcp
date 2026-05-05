@@ -1,0 +1,11 @@
+services:
+  mcp-server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: lakehouse-mcp-server:latest
+    restart: always
+    ports:
+      - "${MCP_PORT:-8000}:${MCP_PORT:-8000}"
+    env_file:
+      - .env
